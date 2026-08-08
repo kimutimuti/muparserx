@@ -13,35 +13,35 @@ jobs:
       matrix:
         include:
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Release
             variant: sse2
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Debug
             variant: sse2
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Release
             variant: avx2
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Debug
             variant: avx2
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Release
             variant: avx512
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Debug
             variant: avx512
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Release
             variant: avx10
           - architecture: x64
-            os: windows-2025
+            os: windows-2022
             build_type: Debug
             variant: avx10
           - architecture: ARM64
